@@ -1,0 +1,3 @@
+*/30 * * * * /data/utils/get-wowza-log.sh >/dev/null 2>&1
+5 * * * * sh /data/utils/gen-reports-v2.sh >> /data/utils/cron.log
+0 4 * * * /data/utils/syncfiles.sh
